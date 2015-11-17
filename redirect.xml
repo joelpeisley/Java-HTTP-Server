@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<redirectList>
+        <redirect>
+                <file>files/missingFile.html</file>
+                <code>302</code>
+                <location>http://www.reddit.com/</location>
+        </redirect>
+        <redirect>
+                <file>files/otherFile.html</file>
+                <code>301</code>
+                <location>http://www.google.com.au/</location>
+        </redirect>
+</redirectList>

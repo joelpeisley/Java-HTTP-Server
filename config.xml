@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<server>
+        <settings>
+                
+                <!--The port the webserver binds to-->
+                <!--Default=10001-->
+                <port>10002</port>
+                
+                <!--The directory to keep files for serving-->
+                <!--Default=files/-->
+                <webFilesDir>files</webFilesDir>
+                
+                <!--The default file when a browser requests / -->
+                <!--Default=files/index.html-->
+                <defaultFile>/index.html</defaultFile>
+                
+                <!--The directory to keep the log files-->
+                <!--Default=logs/-->
+                <logDir>logs/</logDir>
+                
+                <!--The filetypes that have custom classes (plugins)
+                        to process-->
+                <dynamicFiles>pl,php</dynamicFiles>
+                
+                <!--The size in bytes of the max request size-->
+                <!--default=255-->
+                <requestSize>255</requestSize>
+        
+        </settings>
+</server>
